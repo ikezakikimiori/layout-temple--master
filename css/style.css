@@ -166,7 +166,6 @@ header {
 }
 
 /* top-view */
-
 .sec__01 {
     display: grid;
     place-content: center;
@@ -465,7 +464,6 @@ header {
 }
 
 /* price */
-
 .price-table__items {
     display: flex;
     justify-content: space-between;
