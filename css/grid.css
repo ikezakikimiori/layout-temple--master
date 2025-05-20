@@ -375,7 +375,7 @@ hgroup {
 
         .card__title--top {
             text-align: center;
-            padding: var(--padding--md);
+            padding: var(--padding--xs);
             margin: 0;
         }
 
@@ -385,8 +385,46 @@ hgroup {
             aspect-ratio: 4/3;
         }
 
-        .card__
+        .card__body {
+            padding: var(--padding--sm);
+        }
+    }
+}
 
+/* card--04 sec__04 */
+.card__list--04 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
 
+    .card--04 {
+        width: 100%; 
+        /* border: var(--border); */
+        background: var(--background);
+        
+        .card__img--04 {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+        }
+
+        .card__body--04 {
+            padding: var(--padding--md);
+
+            .card__text--04 {
+                margin-bottom: var(--contents-margin--sm);
+            }
+
+            .card__link {
+                display: grid;
+                place-content: end;
+            }
+
+            .card-btn {
+                padding: 8px 24px;
+                background: #fff;
+                border: var(--border);
+            }
+        }
     }
 }
