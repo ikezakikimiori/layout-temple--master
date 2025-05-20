@@ -34,6 +34,7 @@
     --background: #d9d9d9;
     --background-image: #aaaaaa;
     --gap:40px;
+    --gap-lg:56px;
     --width-pc:1440px;
     --width-container:1280px;
     --max-width--card-img: 400px;
@@ -306,7 +307,7 @@ hgroup {
 /* card sec__09 */
 .card__list {
     display: grid;
-    gap: 56px;
+    gap: var(--gap-lg);
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 
     .card {
@@ -325,5 +326,67 @@ hgroup {
             padding: var(--padding--sm);
             background: var(--background);
         }
+    }
+}
+
+/* card02 sec__10  */
+.card__list--02 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--gap-lg);
+
+    .card--02 {
+        width: 100%;
+        aspect-ratio: 3/4;
+        border: var(--border);
+        background: var(--background);
+
+        .card__img--02 {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+        }
+
+        .card__body--02 {
+            padding: var(--padding--sm);
+
+            .card__header {
+                margin-bottom: var(--contents-margin--md);
+
+                .card__title--02 {
+                    margin-bottom: var(--contents-margin--xs);
+                }
+            }
+        }
+    }
+}
+
+/* card--03 sec__11 */
+.card__list--03 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--gap-lg);
+
+    .card--03 {
+        width: 100%;
+        aspect-ratio: 3/4;
+        border: var(--border);
+        background: var(--background);
+
+        .card__title--top {
+            text-align: center;
+            padding: var(--padding--md);
+            margin: 0;
+        }
+
+        .card__img--03 {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+        }
+
+        .card__
+
+
     }
 }
