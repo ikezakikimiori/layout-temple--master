@@ -303,3 +303,27 @@ hgroup {
     }
 }
 
+/* card sec__09 */
+.card__list {
+    display: grid;
+    gap: 56px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    .card {
+        width: 100%;
+        aspect-ratio: 3/4;
+        border: var(--border);
+
+        .card__img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4/3;
+            height: auto;
+        }
+
+        .card__body {
+            padding: var(--padding--sm);
+            background: var(--background);
+        }
+    }
+}
