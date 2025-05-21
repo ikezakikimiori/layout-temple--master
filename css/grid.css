@@ -161,6 +161,7 @@ hgroup {
     height: 120px;
     padding: var(--padding-LR-lg);
     border: var(--border);
+    background: var(--background);
 
     .header__logo {
         display: grid;
